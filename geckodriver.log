@@ -1,0 +1,50 @@
+1636462358817	geckodriver	INFO	Listening on 127.0.0.1:49087
+1636462358821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48631" "-no-remote" "-profile" "/tmp/rust_mozprofile3FjcLd"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1636462359221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3FjcLd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:48631/devtools/browser/e285304d-4b55-436e-994d-0d55423bac2e
+1636462360064	Marionette	INFO	Listening on port 38757
+1636462360138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636462379613	Marionette	INFO	Stopped listening on port 38757
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636462490663	geckodriver	INFO	Listening on 127.0.0.1:36257
+1636462490666	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40365" "-no-remote" "-profile" "/tmp/rust_mozprofileAIvJM4"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1636462491002	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAIvJM4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40365/devtools/browser/2120a603-90a7-4b20-8e4f-8b6eeb50b8a7
+1636462492037	Marionette	INFO	Listening on port 37693
+1636462492080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1636462524696	geckodriver	INFO	Listening on 127.0.0.1:37505
+1636462524700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33053" "-no-remote" "-profile" "/tmp/rust_mozprofile0EVyco"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1636462525094	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0EVyco/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33053/devtools/browser/2303fbb6-22ed-4e2b-b562-9ac69451b98f
+1636462525980	Marionette	INFO	Listening on port 42473
+1636462526015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1636462588131	geckodriver	INFO	Listening on 127.0.0.1:49165
+1636462588134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50349" "-no-remote" "-profile" "/tmp/rust_mozprofilelEX0gB"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1636462588503	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelEX0gB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50349/devtools/browser/d1a332e2-9f58-453d-975d-fa54495d56a8
+1636462589380	Marionette	INFO	Listening on port 45463
+1636462589453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1636462748052	Marionette	INFO	Stopped listening on port 45463
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1636462758066	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
